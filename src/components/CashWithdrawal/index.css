@@ -1,0 +1,67 @@
+.bg {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  padding: 2%;
+}
+.who {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.letter {
+  background-color: #c7d2fe;
+  border-radius: 25px;
+  width: 40px;
+  text-align: center;
+  color: #7c3aed;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance {
+  font-family: 'Roboto';
+  color: #585076;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+}
+.money {
+  color: #d4d2db;
+  font-family: 'Roboto';
+}
+.withdrawal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+}
+.button-container {
+  display: flex;
+}
+.button {
+  width: 200px;
+  background-color: #382f5a;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #c4c4c4;
+  font-family: 'Roboto';
+}
